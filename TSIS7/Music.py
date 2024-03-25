@@ -4,7 +4,7 @@ pygame.mixer.init()
 pygame.init()
 screen = pygame.display.set_mode((800, 800))
 
-songs = ["music/Bôa - Duvet.mp3", "music/Yung Lean - Ginseng Strip.mp3", "music/Radiohead - Creep.mp3", "music/Kiss - I Was Made For Loving You.mp3",]
+songs = ["music/The Weeknd - After Hours.mp3","music/The Weeknd - Blinding Lights.mp3","music/The Weeknd - Starboy.mp3",]
 current_music = 0
 pygame.mixer.music.load(songs[current_music])
 pygame.mixer.music.play()
